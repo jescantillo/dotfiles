@@ -1,0 +1,25 @@
+# "query:Unread Articles:unread = \"yes\""
+"query:Blog Posts:tags # \"blog\""
+"query:Videos:tags # \"video\""
+
+# Blogs
+https://sizeof.cat/index.xml blog # Sizeofcat
+
+# YouTube https://www.youtube.com/feeds/videos.xml?channel_id=
+https://www.youtube.com/feeds/videos.xml?channel_id=UCG-3rEW4IrDNa7-9iGByc2A video fitness # Natural Hypertrophy
+https://www.youtube.com/feeds/videos.xml?channel_id=UCGk5LGakzD4dlWFNy70kSIw video fitness # Yellow Dude
+https://www.youtube.com/feeds/videos.xml?channel_id=UCuTXKOYkfNG6166srF95PJw video fitness # Kevin Zhang
+
+
+https://www.youtube.com/feeds/videos.xml?channel_id=UC04nROIJrY22Gl2aFqKcdqQ video tech # Sylvan Franklin
+https://www.youtube.com/feeds/videos.xml?channel_id=UCrz1EgFHSkWpRkS0P-CPSXg video tech # Oscar
+https://www.youtube.com/feeds/videos.xml?channel_id=UC8wZnXYK_CGKlBcZp-GxYPA video tech # NeuralNine
+https://www.youtube.com/feeds/videos.xml?channel_id=UC7YOGHUfC1Tb6E4pudI9STA video tech # Mental Outlaw
+https://www.youtube.com/feeds/videos.xml?channel_id=UCCQ6SXMc7MoJ88jjpn6j-8Q video tech # Marko
+
+https://www.youtube.com/feeds/videos.xml?channel_id=UCQpPo9BNwezg54N9hMFQp6Q video finances # Nischa
+
+https://www.youtube.com/feeds/videos.xml?channel_id=UCtIdb7KRqOTcOogKsos_QRw video documentary # Lord Draugr
+https://www.youtube.com/feeds/videos.xml?channel_id=UCwQnoax3HWID1WOzZ4mqLPQ video documentary # Cole Hastings
+
+https://www.youtube.com/feeds/videos.xml?channel_id=UCovghN0d1RJVzIkx_mzoF6A video entertainment # Compradre Tlacuache
