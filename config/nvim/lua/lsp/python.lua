@@ -1,4 +1,3 @@
--- ~/.config/nvim/lua/lsp/python.lua
 local lspconfig = require("lspconfig")
 
 require("mason-lspconfig").setup({
@@ -21,10 +20,9 @@ local function on_attach(client, bufnr)
   map("n", "<leader>lf", function() vim.lsp.buf.format({ async = false }) end)
 end
 
--- Ruff (nuevo servidor estable)
+-- Ruff
 lspconfig.ruff.setup({
   on_attach = function(client, bufnr)
-    -- desactivamos hover de Ruff y lo dejamos a Pyright
     client.server_capabilities.hoverProvider = false
     on_attach(client, bufnr)
   end,
