@@ -1,4 +1,4 @@
-local lspconfig = require("lspconfig")
+local lspconfig = vim.lsp.config
 
 require("mason-lspconfig").setup({
   ensure_installed = { "pyright", "ruff" },
